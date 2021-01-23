@@ -1,0 +1,8 @@
+# Util
+github "ReactiveX/RxSwift" "6.0.0"
+
+# UI
+github "texturegroup/texture" "master"
+
+# Test
+github "Quick/Nimble" ~> 8.0
