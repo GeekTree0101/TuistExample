@@ -86,7 +86,12 @@ let appTargets: [Target] = AppFactory(
     bundleID: "com.vingle.www",
     name: appName,
     platform: .iOS,
-    infoPlist: InfoPlistFactory().build()
+    infoPlist: [
+      "CFBundleShortVersionString": "1.0",
+      "CFBundleVersion": "1",
+      "UIMainStoryboardFile": "",
+      "UILaunchStoryboardName": "LaunchScreen"
+    ]
   )
 )
 
