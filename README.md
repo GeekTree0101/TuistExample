@@ -27,6 +27,11 @@ tuist init --platform ios
 ### Create specification for project configuration in Project.swift
 https://github.com/GeekTree0101/TuistExample/blob/master/Project.swift
 
+just open Xcode IDE
+```sh
+tuist edit
+```
+
 ### Create a Xcode project files
 ```sh
 tuist generate
